@@ -1,6 +1,6 @@
 ## Creative Coding (DM-GY 6063) - Programming: Week 07
 
-#### HW07:
+### HW07:
 - Please click [here](https://lauren-tsao-dm-gy-6063-2024fall-b.github.io/HW07/)
 
 ### What is your chosen text?
