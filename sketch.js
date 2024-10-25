@@ -6,7 +6,7 @@ let groupAlphas = [];
 let groupColor = [];
 
 function preload() {
-  mStrings = loadStrings("./assets/BetterBeHeaven_lyrics.txt");
+  mStrings = loadStrings("../assets/BetterBeHeaven_lyrics.txt");
 }
 
 function setup() {
