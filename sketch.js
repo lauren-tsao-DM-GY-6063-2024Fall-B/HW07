@@ -6,7 +6,7 @@ let groupAlphas = [];
 let groupColor = [];
 
 function preload() {
-  mStrings = loadStrings("../assets/BetterBeHeaven_lyrics.txt");
+  mStrings = loadStrings("./assets/BetterBeHeaven_lyrics.txt");
 }
 
 function setup() {
@@ -34,7 +34,7 @@ function draw() {
       }
       if (m > 7000) {
         if (groupColor[i] < 220) {
-          groupColor[i] += 4
+          groupColor[i] += 4;
         }
       }
     } 
@@ -47,7 +47,7 @@ function draw() {
     }
     if (m > 7000) {
       if (groupColor[i] < 220) {
-        groupColor[i] += 4
+        groupColor[i] += 4;
       }
     }
     } 
@@ -60,7 +60,7 @@ function draw() {
       }
       if (m > 11000) {
         if (groupColor[i] < 220) {
-          groupColor[i] += 4
+          groupColor[i] += 4;
         }
       }
     } 
@@ -75,7 +75,7 @@ function draw() {
       }
       if (m > 28000) {
         if (groupColor[i] < 220) {
-          groupColor[i] += 4
+          groupColor[i] += 4;
         }
       }
     } 
@@ -90,7 +90,7 @@ function draw() {
       }
       if (m > 28000) {
         if (groupColor[i] < 220) {
-          groupColor[i] += 4
+          groupColor[i] += 4;
         }
       }
     } 
@@ -104,7 +104,7 @@ function draw() {
       }
       if (m > 28000) {
         if (groupColor[i] < 220) {
-          groupColor[i] += 4
+          groupColor[i] += 4;
         }
       }
     } 
@@ -118,7 +118,7 @@ function draw() {
       }
       if (m > 28000) {
         if (groupColor[i] < 220) {
-          groupColor[i] += 4
+          groupColor[i] += 4;
         }
       }
     } 
@@ -132,7 +132,7 @@ function draw() {
       }
       if (m > 28000) {
         if (groupColor[i] < 220) {
-          groupColor[i] += 4
+          groupColor[i] += 4;
         }
       }
     } 
@@ -146,7 +146,7 @@ function draw() {
       }
       if (m > 28000) {
         if (groupColor[i] < 220) {
-          groupColor[i] += 4
+          groupColor[i] += 4;
         }
       }
     } 
@@ -160,7 +160,7 @@ function draw() {
       }
       if (m > 28000) {
         if (groupColor[i] < 220) {
-          groupColor[i] += 4
+          groupColor[i] += 4;
         }
       }
     } 
@@ -173,24 +173,24 @@ function draw() {
           groupAlphas[i] += 4;
         }
       }
-      if (m > 33000) {
+      if (m > 32000) {
         if (groupColor[i] < 220) {
-          groupColor[i] += 4
+          groupColor[i] += 4;
         }
       }
     }
 
     else if (i === 11) { // - Stars
-      xPosition = 1300;
+      xPosition = 1250;
       textSize(35);
       if (m > 28000) {
         if (groupAlphas[i] < 255) {
           groupAlphas[i] += 4;
         }
       }
-      if (m > 33000) {
+      if (m > 32000) {
         if (groupColor[i] < 220) {
-          groupColor[i] += 4
+          groupColor[i] += 4;
         }
       }
     }
@@ -208,7 +208,7 @@ function groupLyrics() {
   groups.push(lines.slice(0, 4)); // 0
   groups.push(lines.slice(4, 8)); // 1
   groups.push(lines.slice(8, 10)); // 2
-  groups.push(lines.slice(10, 11)); // 3 (recall)
+  groups.push(lines.slice(10, 11)); // 3
   groups.push(lines.slice(11, 12)); // 4
   groups.push(lines.slice(12, 13)); // 5
   groups.push(lines.slice(13, 14)); // 6
@@ -216,7 +216,7 @@ function groupLyrics() {
   groups.push(lines.slice(15, 16)); // 8
   groups.push(lines.slice(16, 17)); // 9
   groups.push(lines.slice(17, 18)); // 10
-  groups.push(lines.slice(18, 19)); // 13 // - Stars
+  groups.push(lines.slice(18, 19)); // 13
 }
 
 function displayGroup(group, y, x) {
