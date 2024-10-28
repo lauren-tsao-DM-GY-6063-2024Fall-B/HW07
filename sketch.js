@@ -1,7 +1,7 @@
 let mStrings = [];
 let groups = [];
 let lineSpacing = 20;
-let groupSpacing = 50;
+let groupSpacing = 45;
 let groupAlphas = [];
 let groupColor = [];
 
@@ -181,7 +181,7 @@ function draw() {
     }
 
     else if (i === 11) { // - Stars
-      xPosition = 1250;
+      xPosition = 1200;
       textSize(35);
       if (m > 28000) {
         if (groupAlphas[i] < 255) {
